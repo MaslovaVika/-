@@ -1,0 +1,90 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 29px;
+}
+.header__logo-wrapper {
+  margin-left: 144px;
+}
+.header__logo-img {
+}
+.header__ssilka {
+}
+.header__menu {
+}
+.header__spisok {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 30px;
+}
+.header__li > a {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.header__ssilka1 {
+}
+.header__ssilka2 {
+}
+.header__ssilka3 {
+}
+.header__ssilka4 {
+}
+.foto1 {
+}
+.foto1__text {
+}
+.foto1__big {
+  margin-top: 298px;
+  margin-left: 144px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 80px;
+  color: #ffffff;
+}
+.foto1__small {
+  margin-left: 144px;
+  column-gap: 10px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 44px;
+  color: #ffffff;
+}
+.block {
+  height: 66px;
+  width: 170px;
+  margin-left: 144px;
+  margin-top: 457px;
+  background: #fc0a7e;
+  border-color: #fc0a7e;
+  border-radius: 3px;
+  line-height: 66px;
+}
+.block-text {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+}
+.foto1__a {
+  width: 9px;
+  height: 40px;
+  margin-top: 730px;
+  margin-left: 716px;
+}
+.foto1__foto {
+}
+.foto {
+}
