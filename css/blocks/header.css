@@ -36,12 +36,19 @@
 .header__ssilka4 {
 }
 .foto1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 .foto1__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 .foto1__big {
   margin-top: 298px;
-  margin-left: 144px;
+  /* margin-left: 144px; */
   font-family: "Gothic A1";
   font-style: normal;
   font-weight: 400;
@@ -50,8 +57,8 @@
   color: #ffffff;
 }
 .foto1__small {
-  margin-left: 144px;
-  column-gap: 10px;
+  /* margin-left: 144px; */
+  margin-top: 10px;
   font-family: "Gothic A1";
   font-style: normal;
   font-weight: 400;
@@ -79,10 +86,8 @@
   color: #ffffff;
 }
 .foto1__a {
-  width: 9px;
-  height: 40px;
-  margin-top: 730px;
-  margin-left: 716px;
+  /* margin-top: 730px;
+  margin-left: 716px; */
 }
 .foto1__foto {
 }
