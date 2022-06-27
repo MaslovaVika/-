@@ -3,9 +3,9 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 29px;
+  margin-left: 144px;
 }
 .header__logo-wrapper {
-  margin-left: 144px;
 }
 .header__logo-img {
 }
@@ -15,9 +15,10 @@
 }
 .header__spisok {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   column-gap: 30px;
+  margin-right: 159px;
 }
 .header__li > a {
   font-family: "Gothic A1";
@@ -37,18 +38,28 @@
 }
 .foto1 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-start;
+  margin-top: -72px;
+  /* margin-left: 144px; */
+  background: linear-gradient(
+      287.15deg,
+      #450e4b 0%,
+      #3c0c41 24.48%,
+      rgba(207, 0, 99, 0) 100%
+    ),
+    #cf0063;
+  padding: 0;
 }
 .foto1__text {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  margin-left: 144px;
 }
 .foto1__big {
   margin-top: 298px;
-  /* margin-left: 144px; */
   font-family: "Gothic A1";
   font-style: normal;
   font-weight: 400;
@@ -57,7 +68,6 @@
   color: #ffffff;
 }
 .foto1__small {
-  /* margin-left: 144px; */
   margin-top: 10px;
   font-family: "Gothic A1";
   font-style: normal;
@@ -65,11 +75,11 @@
   font-size: 30px;
   line-height: 44px;
   color: #ffffff;
+  min-width: 677px;
 }
 .block {
   height: 66px;
   width: 170px;
-  /* margin-left: 144px; */
   margin-top: 45px;
   background: #fc0a7e;
   border-color: #fc0a7e;
@@ -85,13 +95,14 @@
   text-align: center;
   color: #ffffff;
 }
-.foto1__a {
-  margin-top: 207px;
-  margin-left: 716px;
-}
 .foto1__foto {
 }
-.foto {
-  margin-top: 60px;
-  /* margin-left: 430px; */
+.foto1__ris {
+  margin-top: 120px;
+  margin-left: -54px;
+}
+.foto1__strela {
+  margin-top: -60px;
+  margin-left: -100px;
+  margin-bottom: 30px;
 }
