@@ -106,3 +106,718 @@
   margin-left: -100px;
   margin-bottom: 30px;
 }
+.foto2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #1b1b1b;
+}
+.foto2__text2 {
+  margin-top: 100px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #a8a8a8;
+}
+.foto2__text3 {
+  margin-top: 30px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+}
+.foto2__str2 {
+  margin-top: 55px;
+}
+.foto3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #ffff;
+}
+.foto3__text-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 274px;
+}
+.foto3__text4 {
+  margin-top: 268px;
+  margin-right: 328px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #a8a8a8;
+}
+.foto3__text5 {
+  margin-top: 30px;
+  min-width: 302px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+  color: #000000;
+}
+.foto3__text6 {
+  margin-top: 22px;
+  min-width: 306px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #6b6b6b;
+}
+.foto3__str3 {
+  margin-top: 80px;
+  margin-right: 324px;
+}
+.foto4 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background: #ffff;
+}
+.foto4__str4 {
+  margin-top: 160px;
+  margin-left: 302px;
+}
+.foto4__text-2 {
+  max-width: 306px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 144px;
+}
+.foto4__text7 {
+  margin-top: 288px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #a8a8a8;
+}
+.foto4__text8 {
+  margin-top: 25px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+  color: #000000;
+}
+.foto4__text9 {
+  margin-top: 27px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #6b6b6b;
+}
+.foto5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #ffff;
+}
+.foto5__text-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 283px;
+  margin-left: 274px;
+}
+.foto5__text10 {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #a8a8a8;
+}
+.foto5__text11 {
+  margin-top: 30px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+  color: #000000;
+}
+.foto5__text12 {
+  margin-top: 22px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #6b6b6b;
+}
+.foto5__str5 {
+  margin-top: 160px;
+  margin-right: 224px;
+}
+.foto6 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background: #ffff;
+}
+.foto6__text-4 {
+  margin-top: 159px;
+  min-width: 371px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.foto6__str6 {
+  margin-left: 248px;
+}
+.foto6__text13 {
+  margin-top: 40.32px;
+  margin-left: 197px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+.foto6__text14 {
+  margin-top: 17px;
+  margin-left: 102px;
+  min-width: 371px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #6b6b6b;
+}
+.foto6__str7 {
+  margin-left: 210px;
+}
+.foto6__text-5 {
+  margin-top: 159px;
+  min-width: 371px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.foto6__text15 {
+  margin-top: 40.65px;
+  margin-left: 182px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+.foto6__text16 {
+  margin-top: 17px;
+  margin-left: 61px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #6b6b6b;
+}
+.foto6__str8 {
+  margin-left: 227px;
+}
+.foto6__text-6 {
+  margin-top: 159px;
+  min-width: 371px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.foto6__text17 {
+  margin-top: 40px;
+  margin-left: 172px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+.foto6__text18 {
+  margin-top: 17px;
+  margin-left: 62px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #6b6b6b;
+}
+.foto7 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background: #ffff;
+}
+.foto7__text-7 {
+  margin-top: 163px;
+  margin-left: 158px;
+  max-width: 163px;
+}
+.foto7__text19 {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 59px;
+  line-height: 90px;
+  text-align: center;
+  color: #333333;
+}
+.foto7__text20 {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+.foto7__text-8 {
+  margin-top: 163px;
+  margin-left: 141px;
+  max-width: 193px;
+}
+.foto7__text21 {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 59px;
+  line-height: 90px;
+  text-align: center;
+  color: #333333;
+}
+.foto7__text22 {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+.foto7__text-9 {
+  margin-top: 163px;
+  margin-left: 163px;
+  max-width: 129px;
+}
+.foto7__text23 {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 59px;
+  line-height: 90px;
+  text-align: center;
+  color: #333333;
+}
+.foto7__text24 {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+.foto7__text-10 {
+  margin-top: 163px;
+  margin-left: 206px;
+  max-width: 106px;
+}
+.foto7__text25 {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 59px;
+  line-height: 90px;
+  text-align: center;
+  color: #333333;
+}
+.foto7__text26 {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+.foto8 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #ffff;
+}
+.foto8__text-11 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 177px;
+  margin-left: 274px;
+}
+.foto8__text27 {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #a8a8a8;
+}
+.foto8__text28 {
+  margin-top: 30px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+  color: #000000;
+}
+.foto8__text29 {
+  margin-top: 22px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #6b6b6b;
+}
+.foto8__str9 {
+  margin-top: 170px;
+  margin-right: 235px;
+}
+.foto9 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background: #ffff;
+}
+.foto9__str10 {
+  margin-top: 180px;
+  margin-left: 236px;
+}
+.foto9__text-12 {
+  margin-top: 201px;
+  margin-left: 77px;
+  max-width: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.foto9__text30 {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #a8a8a8;
+}
+.foto9__text31 {
+  margin-top: 25px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.foto9__text32 {
+  margin-top: 27px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #6b6b6b;
+}
+.foto10 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ffff;
+}
+.foto10__str11 {
+  margin-top: 162.41px;
+}
+.foto10__text33 {
+  margin-top: 65.97px;
+  max-width: 700px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  color: #6b6b6b;
+}
+.foto10__str {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+.foto10__text34 {
+  margin-top: 17px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #6b6b6b;
+}
+.foto10__bloc1 {
+  margin-top: 17px;
+  width: 30px;
+  height: 1px;
+  background: #d3d3d3;
+  border-radius: 0px;
+}
+.foto10__text35 {
+  margin-top: 17px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #6b6b6b;
+}
+.foto10__str1 {
+  margin-top: 88px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 16px;
+}
+.foto10__block2 {
+  width: 7px;
+  height: 7px;
+  background: #222222;
+}
+.foto10__block3 {
+  width: 7px;
+  height: 7px;
+  background: rgba(34, 34, 34, 0.4);
+}
+.foto10__str12 {
+  margin-top: 142px;
+}
+.foto11 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ffff;
+}
+.foto11__str13 {
+  margin-top: 118px;
+}
+.foto12 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.foto13__text12 {
+}
+.foto12__text36 {
+  margin-top: 165px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+}
+.foto12__str14 {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foto12__block4 {
+  background: #fc0a7e;
+  background-color: #fc0a7e;
+  border-radius: 3px;
+  width: 190px;
+  height: 66px;
+  line-height: 66px;
+}
+.foto12__text37 {
+  margin-top: 20px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+}
+.foto12__block5 {
+  width: 171px;
+  height: 66px;
+  border: 1px solid #b04bb3;
+  line-height: 66px;
+}
+.foto12__text38 {
+  margin-top: 20px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+}
+.foto13 {
+  margin-top: 156px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #1b1b1b;
+  border-radius: 0px;
+}
+.foto13__text13 {
+}
+.foto13__text39 {
+  margin-top: 129px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+}
+.foto13__text40 {
+  margin-top: 20px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #6b6b6b;
+}
+.foto13__str15 {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foto13__block6 {
+  background: #ffffff;
+  box-shadow: 0px 0px 0px #fc0a7e;
+  border-radius: 3px 0px 0px 3px;
+  width: 311px;
+  height: 70px;
+}
+.foto13__text41 {
+  margin-top: 22px;
+  margin-right: 155px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+.foto13__block7 {
+  background: #fc0a7e;
+  border-radius: 0px 3px 3px 0px;
+  width: 154px;
+  height: 70px;
+}
+.foto13__text42 {
+  margin-top: 22px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__str14 {
+  margin-top: 146px;
+}
+.footer__menu {
+  /* margin-top: 279px; */
+}
+.footer__spisok {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+}
+.footer__li {
+}
+.footer__ssilka1 {
+}
+.footer__ssilka2 {
+}
+.footer__ssilka3 {
+}
+.footer__ssilka4 {
+}
+.footer__ssilka5 {
+}
+.footer__ssilka6 {
+}
