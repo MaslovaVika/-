@@ -1,18 +1,13 @@
 .header {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 29px;
   margin-left: 144px;
+  z-index: 10;
 }
-.header__logo-wrapper {
-}
-.header__logo-img {
-}
-.header__ssilka {
-}
-.header__menu {
-}
+
 .header__spisok {
   display: flex;
   justify-content: center;
@@ -20,7 +15,9 @@
   column-gap: 30px;
   margin-right: 159px;
 }
+
 .header__li > a {
+  text-decoration: none;
   font-family: "Gothic A1";
   font-style: normal;
   font-weight: 400;
@@ -28,20 +25,14 @@
   line-height: 20px;
   color: #ffffff;
 }
-.header__ssilka1 {
-}
-.header__ssilka2 {
-}
-.header__ssilka3 {
-}
-.header__ssilka4 {
+li > a:hover {
+  color: #000000;
 }
 .foto1 {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   margin-top: -72px;
-  /* margin-left: 144px; */
   background: linear-gradient(
       287.15deg,
       #450e4b 0%,
@@ -86,6 +77,10 @@
   border-radius: 3px;
   line-height: 66px;
 }
+.block:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
 .block-text {
   font-family: "Gothic A1";
   font-style: normal;
@@ -95,8 +90,7 @@
   text-align: center;
   color: #ffffff;
 }
-.foto1__foto {
-}
+
 .foto1__ris {
   margin-top: 120px;
   margin-left: -54px;
@@ -645,6 +639,7 @@
   height: 7px;
   background: #222222;
 }
+
 .foto10__block3 {
   width: 7px;
   height: 7px;
@@ -653,6 +648,7 @@
 .foto10__str12 {
   margin-top: 142px;
 }
+
 .foto11 {
   display: flex;
   flex-direction: column;
@@ -666,10 +662,11 @@
 .foto12 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-}
-.foto13__text12 {
+  background: linear-gradient(276.18deg, #6e28b1 0%, rgba(0, 0, 0, 0) 100%),
+    #fc0a7e;
+  border-radius: 0px;
 }
 .foto12__text36 {
   margin-top: 165px;
@@ -683,9 +680,11 @@
 }
 .foto12__str14 {
   margin-top: 60px;
+  margin-bottom: 156px;
   display: flex;
   justify-content: center;
   align-items: center;
+  column-gap: 10px;
 }
 .foto12__block4 {
   background: #fc0a7e;
@@ -694,6 +693,10 @@
   width: 190px;
   height: 66px;
   line-height: 66px;
+}
+.foto12__block4:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 .foto12__text37 {
   margin-top: 20px;
@@ -711,6 +714,10 @@
   border: 1px solid #b04bb3;
   line-height: 66px;
 }
+.foto12__block5:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
 .foto12__text38 {
   margin-top: 20px;
   font-family: "Gothic A1";
@@ -722,16 +729,15 @@
   color: #ffffff;
 }
 .foto13 {
-  margin-top: 156px;
+  height: 474px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   background: #1b1b1b;
   border-radius: 0px;
 }
-.foto13__text13 {
-}
+
 .foto13__text39 {
   margin-top: 129px;
   font-family: "Gothic A1";
@@ -774,12 +780,17 @@
   font-size: 16px;
   line-height: 26px;
   text-align: center;
+  border: none;
 }
 .foto13__block7 {
-  background: #fc0a7e;
+  background-color: #fc0a7e;
   border-radius: 0px 3px 3px 0px;
   width: 154px;
   height: 70px;
+  border: none;
+}
+.foto13__block7:hover {
+  transform: scale(1.1);
 }
 .foto13__text42 {
   margin-top: 22px;
@@ -789,35 +800,76 @@
   font-size: 16px;
   line-height: 26px;
   text-align: center;
+  /* background-color: #fc0a7e; */
 }
 .footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  background: #1b1b1b;
+  border-radius: 0px;
 }
-.footer__str14 {
-  margin-top: 146px;
+.footer__str16 {
+  text-align: center;
 }
 .footer__menu {
-  /* margin-top: 279px; */
+  margin-top: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .footer__spisok {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   column-gap: 30px;
 }
-.footer__li {
+.footer__li > a {
+  margin-bottom: 69px;
+  text-decoration: none;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 20px;
+  text-align: center;
+  color: #6b6b6b;
 }
 .footer__ssilka1 {
+  color: #6b6b6b;
+}
+.footer__ssilka1:hover {
+  color: rgb(255, 255, 255);
 }
 .footer__ssilka2 {
+  color: #6b6b6b;
+}
+.footer__ssilka2:hover {
+  color: rgb(255, 255, 255);
 }
 .footer__ssilka3 {
+  color: #6b6b6b;
+}
+.footer__ssilka3:hover {
+  color: rgb(255, 255, 255);
 }
 .footer__ssilka4 {
+  color: #6b6b6b;
+}
+.footer__ssilka4:hover {
+  color: rgb(255, 255, 255);
 }
 .footer__ssilka5 {
+  color: #6b6b6b;
+}
+.footer__ssilka5:hover {
+  color: rgb(255, 255, 255);
 }
 .footer__ssilka6 {
+  color: #6b6b6b;
+}
+.footer__ssilka6:hover {
+  color: rgb(255, 255, 255);
 }
