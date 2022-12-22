@@ -106,12 +106,12 @@
   font-size: 17px;
   color: rgb(88, 85, 85);
 }
-.container {
+.container1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-left: 860px;
-  width: 0;
+  /* width: 0; */
 }
 .mb-4 {
   display: flex;
